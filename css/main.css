@@ -1937,7 +1937,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e7ff9a;
+  background: #df86da;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3212,4 +3212,7 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+blockquote {
+  background-color: #f7f7f7;
 }
