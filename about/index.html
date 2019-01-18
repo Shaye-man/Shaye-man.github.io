@@ -104,15 +104,20 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="关于">
+  <meta name="description" content="与『搬砖少年』对话中...">
+<meta property="og:type" content="website">
+<meta property="og:title" content="留言板">
 <meta property="og:url" content="https://shaye-man.github.io/about/index.html">
 <meta property="og:site_name" content="『搬砖少年』">
+<meta property="og:description" content="与『搬砖少年』对话中...">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-14T04:30:01.215Z">
+<meta property="og:updated_time" content="2019-01-17T11:29:33.701Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于">
+<meta name="twitter:title" content="留言板">
+<meta name="twitter:description" content="与『搬砖少年』对话中...">
 
+
+  
 
 
   <link rel="alternate" href="/atom.xml" title="『搬砖少年』" type="application/atom+xml">
@@ -130,7 +135,7 @@
   };
 </script>
 
-  <title>关于 | 『搬砖少年』</title>
+  <title>留言板 | 『搬砖少年』</title>
   
 
 
@@ -193,6 +198,10 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
+      
+        <p class="site-subtitle">不搬砖，何以致富！</p>
+      
     
     
   </div>
@@ -359,7 +368,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">关于
+<h1 class="post-title" itemprop="name headline">留言板
 
 </h1>
 
@@ -380,6 +389,18 @@
         
         
           
+<link rel="stylesheet" href="/css/botui.min.css">
+<link rel="stylesheet" href="/css/botui-theme-default.css">
+
+<div id="botui-header"><center><span>与『搬砖少年』对话中...</span></center></div>
+<div id="hello-mashiro" class="botui-app-container">
+<bot-ui></bot-ui>
+</div>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/vue/2.0.5/vue.min.js"></script> 
+<script src="/js/src/botui.min.js"></script>
+<script src="/js/src/mybotui.js" charset="utf-8"></script>
+
 
         
       </div>
@@ -445,7 +466,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -462,7 +483,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -481,7 +504,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -684,8 +709,6 @@ setInterval("createtime()",250);
 
 
 
-  
-
 
 
   
@@ -696,9 +719,6 @@ setInterval("createtime()",250);
 
   
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script src="/lib/reading_progress/reading_progress.js"></script>
 
 
   
@@ -753,12 +773,12 @@ setInterval("createtime()",250);
   });
   new Valine({
     el: '#comments',
-    verify: false,
+    verify: true,
     notify: false,
     appId: 'uitUDpChE21hdUSbxEH3DMqF-gzGzoHsz',
     appKey: 'Op5FbBlFTNmY9jdvERqwQJhP',
     placeholder: 'ヾﾉ≧∀≦)小姐姐们快来撩我啊，记得留下邮箱方便联系哦！',
-    avatar: 'wavatar',
+    avatar: 'mp',
     meta: guest,
     pageSize: '10' || 10,
     visitor: false

@@ -104,18 +104,18 @@
 
 
 
-  <meta name="description" content="这边才是内容展示区">
+  <meta name="description" content="k近邻法是一种基本分类与回归方法。但个人并不把它列入到机器学习中的学习算法，它本身并没有对数据进行理论建模的过程，而是根据现有的数据在n维空间的分布，来确定预测点的归属。这就好比，在现实世界的维度中，经常游走于男厕所的我们归为男性，而经常在女厕所出没的人我们归为女性或者是变态。">
 <meta name="keywords" content="机器学习,算法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="K近邻算法">
 <meta property="og:url" content="https://shaye-man.github.io/2019/01/14/knn/index.html">
 <meta property="og:site_name" content="『搬砖少年』">
-<meta property="og:description" content="这边才是内容展示区">
+<meta property="og:description" content="k近邻法是一种基本分类与回归方法。但个人并不把它列入到机器学习中的学习算法，它本身并没有对数据进行理论建模的过程，而是根据现有的数据在n维空间的分布，来确定预测点的归属。这就好比，在现实世界的维度中，经常游走于男厕所的我们归为男性，而经常在女厕所出没的人我们归为女性或者是变态。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-15T09:43:51.963Z">
+<meta property="og:updated_time" content="2019-01-16T07:58:08.528Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="K近邻算法">
-<meta name="twitter:description" content="这边才是内容展示区">
+<meta name="twitter:description" content="k近邻法是一种基本分类与回归方法。但个人并不把它列入到机器学习中的学习算法，它本身并没有对数据进行理论建模的过程，而是根据现有的数据在n维空间的分布，来确定预测点的归属。这就好比，在现实世界的维度中，经常游走于男厕所的我们归为男性，而经常在女厕所出没的人我们归为女性或者是变态。">
 
 
 
@@ -197,6 +197,10 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
+      
+        <p class="site-subtitle">不搬砖，何以致富！</p>
+      
     
     
   </div>
@@ -344,8 +348,6 @@
   
 
   
-    <div class="reading-progress-bar"></div>
-  
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
@@ -412,7 +414,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-15 17:43:51" itemprop="dateModified" datetime="2019-01-15T17:43:51+08:00">2019-01-15</time>
+                <time title="修改时间：2019-01-16 15:58:08" itemprop="dateModified" datetime="2019-01-16T15:58:08+08:00">2019-01-16</time>
               
             
           </span>
@@ -483,7 +485,8 @@
       
 
       
-        <p>这边才是内容展示区 <a id="more"></a></p>
+        <blockquote class="blockquote-center">k近邻法是一种基本分类与回归方法。但个人并不把它列入到机器学习中的学习算法，它本身并没有对数据进行理论建模的过程，而是根据现有的数据在n维空间的分布，来确定预测点的归属。这就好比，在现实世界的维度中，经常游走于男厕所的我们归为男性，而经常在女厕所出没的人我们归为女性或者是变态。</blockquote>
+<a id="more"></a>
 <h2 id="算法思想总结">算法思想总结</h2>
 <blockquote>
 <p>在训练集中数据和标签已知的情况下，输入测试数据，将测试数据的特征与训练集中对应的特征进行相互比较，找到训练集中与之最为相似的前K个数据，则该测试数据对应的类别就是K个数据中出现次数最多的那个分类，其算法的描述为：</p>
@@ -525,7 +528,7 @@
 <li>最大的缺点是无法给出数据的内在含义。</li>
 </ul>
 <h2 id="sklearn实现k近邻算法简介">Sklearn实现k近邻算法简介</h2>
-<p>链接: <a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html" target="_blank" rel="noopener">官方文档</a>.</p>
+<p>链接: <span class="exturl" data-url="aHR0cHM6Ly9zY2lraXQtbGVhbi5vcmcvc3RhYmxlL21vZHVsZXMvZ2VuZXJhdGVkL3NrbGVhbi5uZWlnaGJvcnMuS05laWdoYm9yc0NsYXNzaWZpZXIuaHRtbA==" title="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">官方文档<i class="fa fa-external-link"></i></span>.</p>
 <table>
 <colgroup>
 <col style="width: 40%">
@@ -601,14 +604,37 @@
     
 
     
+      <div>
+        
+
+
+
+  
+
+
+
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>江双耀</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    
+    <a href="https://shaye-man.github.io/2019/01/14/knn/" title="K近邻算法">https://shaye-man.github.io/2019/01/14/knn/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
       
         <div class="post-tags">
           
-            <a href="/tags/机器学习/" rel="tag"># 机器学习</a>
+            <a href="/tags/机器学习/" rel="tag"><i class="fa fa-tag"></i> 机器学习</a>
           
-            <a href="/tags/算法/" rel="tag"># 算法</a>
+            <a href="/tags/算法/" rel="tag"><i class="fa fa-tag"></i> 算法</a>
           
         </div>
       
@@ -705,7 +731,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -722,7 +748,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -741,7 +769,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -961,8 +991,6 @@ setInterval("createtime()",250);
 
 
 
-  
-
 
 
   
@@ -973,9 +1001,6 @@ setInterval("createtime()",250);
 
   
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script src="/lib/reading_progress/reading_progress.js"></script>
 
 
   
@@ -1030,12 +1055,12 @@ setInterval("createtime()",250);
   });
   new Valine({
     el: '#comments',
-    verify: false,
+    verify: true,
     notify: false,
     appId: 'uitUDpChE21hdUSbxEH3DMqF-gzGzoHsz',
     appKey: 'Op5FbBlFTNmY9jdvERqwQJhP',
     placeholder: 'ヾﾉ≧∀≦)小姐姐们快来撩我啊，记得留下邮箱方便联系哦！',
-    avatar: 'wavatar',
+    avatar: 'mp',
     meta: guest,
     pageSize: '10' || 10,
     visitor: false
